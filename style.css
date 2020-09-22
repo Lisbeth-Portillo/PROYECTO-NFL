@@ -1,0 +1,271 @@
+.partidos {
+    padding: 10px;
+}
+
+
+/* Nav */
+
+.navimg {
+    text-align: center;
+}
+
+.navimg span {
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: block !important;
+    }
+    .navbar-expand-lg .navbar-collapse li {
+        border-radius: 20px;
+        margin: 5px;
+        width: 150px;
+        text-align: center;
+        background: #0F3273;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-collapse li:hover {
+    background: white;
+    color: #0F3273;
+    border: 2px solid #0F3273;
+}
+
+
+/* Carrousel */
+
+.carousel {
+    display: block;
+    margin: auto;
+    height: 30%;
+    margin-top: 10px;
+}
+
+@media (max-width: 946px) {
+    .carousel {
+        width: 100%;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    @media (max-width: 454px) {
+        .contenido h6 {
+            font-size: 13px;
+        }
+        .contenido {
+            padding: 0px 70px;
+        }
+    }
+}
+
+
+/*Inicio*/
+
+.inicio img {
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+
+
+/*Card*/
+
+.card {
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.card img {
+    height: 200px;
+}
+
+
+/*Footer*/
+
+footer {
+    background: #0F3273;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h3,
+h2 {
+    width: 450px;
+    font-size: 30px;
+    margin-top: 30px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #0F3273;
+    border-width: 3px;
+}
+
+
+/*noticias*/
+
+.noticias {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*equipos*/
+
+.equipos img {
+    width: 50px;
+}
+
+.equipos p {
+    font-weight: 500;
+}
+
+.equipos p:hover {
+    color: blue;
+}
+
+.equipos b {
+    color: #0F3273;
+    cursor: pointer;
+    font-size: small;
+}
+
+.equipos h6 {
+    margin-top: 10px;
+}
+
+
+/* Call Action*/
+
+#call-to-action {
+    background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(img/carrousel2.jpg) fixed center center;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+#call-to-action h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#call-to-action p {
+    color: #fff;
+}
+
+#call-to-action .cta-btn {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+#call-to-action .cta-btn:hover {
+    background: #0F3273;
+}
+
+
+/* Nosotros */
+
+.nosotros {
+    padding-top: 40px;
+}
+
+.nosotros .btn {
+    margin-bottom: 30px;
+}
+
+.botones button {
+    padding: 10px;
+    border: 5px solid #0F3273;
+    width: 60%;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+
+h4 {
+    color: white;
+}
+
+b {
+    color: #0F3273;
+}
+
+.nosotros h4 {
+    border-bottom: 5px solid #0F3273;
+}
+
+
+/*Efecto de zoom*/
+
+.zoom {
+    /* Aumentamos la anchura y altura durante 2 segundos */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.productos p:hover {
+    color: #18d26e;
+}
+
+.nosotros-img img {
+    transition: width 2s;
+}
+
+.nosotros-img img:hover {
+    width: 350px;
+}
+
+
+/*transicion img equipos*/
+
+.equipos img {
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.equipos img:hover {
+    width: 60px;
+    height: 60px;
+    transform: rotate(180deg);
+}
+
+
+/*efecto del texto*/
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.card img:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px #0F3273;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
